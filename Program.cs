@@ -31,13 +31,22 @@ public  class Program
     Console.WriteLine("Invaild Input!!....Please type valid operation");
     PerfectOrPrime=int.Parse(Console.ReadLine());
 }
-      Console.WriteLine("Finding numbers between {0} and {1}...",num1,num2);
-  if(PerfectOrPrime==1) IsPrime(FoundNumbers ,num1, num2);
-   else if(PerfectOrPrime==2) IsPerfect(FoundNumbers ,num1, num2);
+    
+  if(PerfectOrPrime==1){
+    Console.WriteLine("Finding Prime numbers between {0} and {1}...",num1,num2);
+    IsPrime(FoundNumbers ,num1, num2);
+  } 
+   else if(PerfectOrPrime==2) {
+      Console.WriteLine("Finding Perfect numbers between {0} and {1}...",num1,num2);
+      IsPerfect(FoundNumbers ,num1, num2);
+      }
         PrintList(FoundNumbers,PerfectOrPrime);
         Console.ForegroundColor = ConsoleColor.White;
        return;
     }
+
+
+//Prime , Perfect and Print Functions are down :)
 
  public static void IsPrime(List<int> PrimeNumbers,int num1,int num2,int sum=0){
         for(int n=num1; n <num2; n++ ){
