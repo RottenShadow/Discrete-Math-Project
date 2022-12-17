@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 public  class Program 
@@ -12,13 +12,13 @@ public  class Program
         num1=int.Parse(Console.ReadLine());
         Console.WriteLine("Enter last number");
         num2=int.Parse(Console.ReadLine());
-        
-        if(num2<=num1) {
-            Console.WriteLine("Invaild Input!!...The second number must be larger than the first");
-            return;
+
+        if(num2<=1 || num1<=1) {
+           Console.WriteLine("Invaild Input!!...The both numbers must be larger than 1");
+        return;
         }
-        else if(num2<=1 || num1<=1) {
-            Console.WriteLine("Invaild Input!!...The both numbers must be larger than 1");
+      else if(num2<=num1) {
+            Console.WriteLine("Invaild Input!!...The second number must be larger than the first");
             return;
         }
     Console.ForegroundColor = ConsoleColor.Cyan;
