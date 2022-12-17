@@ -8,19 +8,21 @@ public  class Program
     {
          List<int> FoundNumbers=new List<int>();
          int num1,num2,PerfectOrPrime;
-        Console.WriteLine ("Enter first number");
+        Console.WriteLine ("Enter the first number \n *** NOTICE: Must be larger than 1 ***");
         num1=int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter last number");
+        Console.WriteLine("Enter the last number");
         num2=int.Parse(Console.ReadLine());
 
         if(num2<=1 || num1<=1) {
            Console.WriteLine("Invaild Input!!...The both numbers must be larger than 1");
         return;
         }
+        
       else if(num2<=num1) {
             Console.WriteLine("Invaild Input!!...The second number must be larger than the first");
             return;
         }
+
     Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("Enter your operation NUMBER:\n  1 => Prime **** 2 => Perfect");
     Console.ForegroundColor = ConsoleColor.White;
@@ -29,7 +31,7 @@ public  class Program
     Console.WriteLine("Invaild Input!!....Please type valid operation");
     PerfectOrPrime=int.Parse(Console.ReadLine());
 }
-
+      Console.WriteLine("Finding numbers between {0} and {1}...",num1,num2);
   if(PerfectOrPrime==1) IsPrime(FoundNumbers ,num1, num2);
    else if(PerfectOrPrime==2) IsPerfect(FoundNumbers ,num1, num2);
         PrintList(FoundNumbers,PerfectOrPrime);
