@@ -1,0 +1,15 @@
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.csproj.AssemblyReference.cache
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.AssemblyInfoInputs.cache
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.AssemblyInfo.cs
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.csproj.CoreCompileInputs.cache
+C:\Users\IceBear\Desktop\test\Uni\bin\Debug\net6.0\Uni.exe
+C:\Users\IceBear\Desktop\test\Uni\bin\Debug\net6.0\Uni.deps.json
+C:\Users\IceBear\Desktop\test\Uni\bin\Debug\net6.0\Uni.runtimeconfig.json
+C:\Users\IceBear\Desktop\test\Uni\bin\Debug\net6.0\Uni.dll
+C:\Users\IceBear\Desktop\test\Uni\bin\Debug\net6.0\Uni.pdb
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.dll
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\refint\Uni.dll
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.pdb
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\Uni.genruntimeconfig.cache
+C:\Users\IceBear\Desktop\test\Uni\obj\Debug\net6.0\ref\Uni.dll
