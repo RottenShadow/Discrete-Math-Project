@@ -8,18 +8,18 @@ public  class Program
     {
          List<int> FoundNumbers=new List<int>();
          int num1,num2,PerfectOrPrime;
-        Console.WriteLine ("Enter the first number \n *** NOTICE: Must be larger than 1 ***");
+        Console.WriteLine ("Enter the first number \n *** NOTICE: Must be greater than 1 ***");
         num1=int.Parse(Console.ReadLine());
         Console.WriteLine("Enter the last number");
         num2=int.Parse(Console.ReadLine());
 
         if(num2<=1 || num1<=1) {
-           Console.WriteLine("Invaild Input!!...The both numbers must be larger than 1");
+           Console.WriteLine("Invaild Input!!...The both numbers must be greater than 1");
         return;
         }
         
       else if(num2<=num1) {
-            Console.WriteLine("Invaild Input!!...The second number must be larger than the first");
+            Console.WriteLine("Invaild Input!!...The second number must be greater than the first");
             return;
         }
 
